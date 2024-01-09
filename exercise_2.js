@@ -10,9 +10,9 @@
 
 function reverseString(str) {
     return str
-        .split("")
-        .reverse()
-        .join("");
+        .split("") // splits the string individual indices in an array
+        .reverse() // reverses the order of the array
+        .join(""); // joins the array into a string
 }
 
 //   function reverseString(str) {
