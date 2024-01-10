@@ -29,3 +29,5 @@ factorialize(5);
 // factorialize(5);
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+// Lets break this down. Since we have on line 15 product = 1, we cannot start on one, as we want to include it into the factorial itself, because if we multiple by 0, it will return .
+// And since factorials start with 1, we actually let i = 2 and the rest is easy.
