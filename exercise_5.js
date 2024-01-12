@@ -12,11 +12,10 @@ function largestOfFour(arr) {
         for (let j = 1; j < arr[i].length; j++) {
             if (arr[i][j] > largestNumber) {
                 largestNumber = arr[i][j];
+            }
         }
-    }
     results[i] = largestNumber;
     }
-
     return results;
 }
 
