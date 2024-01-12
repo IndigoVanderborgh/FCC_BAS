@@ -10,7 +10,6 @@
 function confirmEnding(str, target) {
     return str.slice(str.length - target.length) === target;
 }
-
 confirmEnding("Bastian", "n");
 
 // function confirmEnding(str, target) {
@@ -20,6 +19,8 @@ confirmEnding("Bastian", "n");
 // confirmEnding("Bastian", "n");
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+
+// confirmEnding("He has to give me a new name", "name");
 
 
 // First we use the slice method copy the string.
