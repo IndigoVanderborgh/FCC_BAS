@@ -20,18 +20,30 @@ console.log(confirmEnding("Bastian", "n"));
 // confirmEnding("Bastian", "n");
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+// we are essentially cutting "Bastion"'s length by the targets length, but it is in the form of index position. Slice also uses the format:
+// str.slice(startindex, endindex);
+// BUT since we only are using the starting index that will equal target and return it, it will be like this:
+// str.slice(startindex); --> str.slice(str.length - target.length)
+// It wont have an ending index, but since we are taking the last letter/word, it doesn't really matter.
 
+//Now all we need to do is equal it to tthe target and return the line of code.
 
 // PROCEDURAL APPROACH
 
 // confirmEnding("He has to give me a new name", "name");
+// function confirmEnding(str, target) {
+//     return str.slice(str.length - target.length) === target;
+// }
 
+// confirmEnding("He has to give me a new name", "name");
 
 // First we use the slice method copy the string.
-// In order to get the last characters in str equivalent to the target's length we use the slice method.
+// In order to get the last characters in str equivalent to the target's length we use the slice method. (line 29, slice) 
+
 // The first parameter inside the slice method is the starting index and the second parameter would be the ending index.
 // For example str.slice(10, 17) would return "give me".
 // In this case we only include one parameter which it will copy everything from the starting index.
+
 // We substract the length of str and the length of target, that way, we shall get the last remaining characters equivalent to the target's length.
 // Finally we compare the return result of slice to target and check if they have the same characters.
 
