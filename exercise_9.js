@@ -8,7 +8,13 @@
 // ------------------------------------------ exercise ------------------------------------------------------------------------------------------------------------------------------
 function findElement(arr, func) {
     let num = 0;
-    return num;
+    for (let i = 0; i < arr.length; i++) {
+        num = arr[i];
+        if (func(num)) {
+            return num;
+        }
+    }
+    return undefined;
 }
 
 findElement([1, 2, 3, 4], num => num % 2 === 0);
@@ -20,8 +26,13 @@ findElement([1, 2, 3, 4], num => num % 2 === 0);
 
 // findElement([1, 2, 3, 4], num => num % 2 === 0); 
 
-// num % 2 === 0<--- This is to check if the value of n is an even number
+// num % 2 === 0<--- This is to check if the value of n is an even number, so once the array has an even number it will stop and output that number.
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
 
 
+
+// Challenge asks us to look through array. This is done using a for loop.
+// The num variable is being passed into the function, so we set it to each index in our array.
+// The pre-defined function already checks each number for us, so if it is “true”, we return that num.
+// If none of the numbers in the array pass the function’s test, we return undefined.
