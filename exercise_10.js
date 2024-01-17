@@ -22,3 +22,17 @@ booWho(null);
 // Code Explanation
 
 //     Uses the operator typeof to check if the variable is a boolean. If it is, it will return true. Otherwise, if it is any other type it will return false.
+
+// typeof is a way to test what type a value is. 
+// typeof examples:
+// Numbers
+// typeof 37 === "number";
+// typeof 3.14 === "number";
+
+// Strings
+// typeof "" === "string";
+// typeof "bla" === "string";
+
+// Booleans
+// typeof true === "boolean";
+// typeof false === "boolean";
