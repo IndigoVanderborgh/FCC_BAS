@@ -15,7 +15,7 @@
 //   frankenSplice([1, 2, 3], [4, 5, 6], 1);
 // ------------------------------------------ exercise ------------------------------------------------------------------------------------------------------------------------------
 function frankenSplice(arr1, arr2, n) {
-    let localArr = arr2.slice();
+    let localArray = arr2.slice();
     for (let i = 0; i < arr1.length; i++) {
         localArray.splice(n, 0, arr1[i]);
         n++;
@@ -24,6 +24,12 @@ function frankenSplice(arr1, arr2, n) {
 }
 
 frankenSplice([1, 2, 3], [4, 5, 6], 1);
+
+// function frankenSplice(arr1, arr2, n) {
+//     return arr2;
+//   }
+
+//   frankenSplice([1, 2, 3], [4, 5, 6], 1);
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
 // So we need to put arr1 in arr2, in order ie 1, 2, 3. n is the index where we start, so in this case, 1. We also cannot mutate the arrays, so no changing them, thus we must create a new array to house them in
