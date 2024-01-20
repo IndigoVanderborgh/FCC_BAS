@@ -26,7 +26,7 @@ console.log(confirmEnding("Bastian", "n"));
 // str.slice(startindex); --> str.slice(str.length - target.length)
 // It wont have an ending index, but since we are taking the last letter/word, it doesn't really matter.
 
-//Now all we need to do is equal it to tthe target and return the line of code.
+//Now all we need to do is equal it to the target and return the line of code.
 
 // PROCEDURAL APPROACH
 
