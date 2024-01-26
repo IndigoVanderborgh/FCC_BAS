@@ -48,4 +48,4 @@ frankenSplice([1, 2, 3], [4, 5, 6], 1);
 // adding n++ at the end of the for loop ensures that every item from arr1 is inserted at the proper index as it increments index with each loop, thus giving it the order
 // Finally, return localArray.
 
-// rest day
+// rest day x2
