@@ -9,7 +9,7 @@
 
 // ------------------------------------------ exercise ------------------------------------------------------------------------------------------------------------------------------
 function bouncer(arr) {
-    return arr;
+    return arr.filter(Boolean);
 }
 
 bouncer([7, "ate", "", false, 9]);
@@ -21,4 +21,21 @@ bouncer([7, "ate", "", false, 9]);
 // bouncer([7, "ate", "", false, 9]);
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
-// rest day x3
+
+// Since we didn't learn filter, check out this answer instead:
+
+// function bouncer(arr) {
+//     const filteredArr = [];
+//     for (let i = 0; i < arr.length; i++) {
+//       if (arr[i]) filteredArr.push(arr[i]);
+//     }
+//     return filteredArr;
+//   }
+
+// Code Explanation
+
+//     We create a new empty array (filteredArr).
+//     We use a for cycle to iterate over all elements of the provided array (arr).
+//     We use the if statement to check if the current element is truthy 699 or falsy 1.7k.
+//     If the element is truthy, we push it to the new array (newArray). This result in the new array (filteredArr) containing only truthy elements.
+//     We return the new array (filteredArr).
