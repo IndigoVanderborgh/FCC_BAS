@@ -41,3 +41,13 @@ bouncer([7, "ate", "", false, 9]);
 //     We use the if statement to check if the current element is truthy 699 or falsy 1.7k.
 //     If the element is truthy, we push it to the new array (newArray). This result in the new array (filteredArr) containing only truthy elements.
 //     We return the new array (filteredArr).
+
+// we can dissect this as:
+
+// let truthyArr = [];
+// for (let item of arr){
+//    if (Boolean(item)) === true) {
+//      truthyArr.push(item);
+//   }
+// }
+// return truthyArr;
