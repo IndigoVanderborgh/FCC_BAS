@@ -51,3 +51,5 @@ bouncer([7, "ate", "", false, 9]);
 //   }
 // }
 // return truthyArr;
+
+//rest
