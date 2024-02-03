@@ -52,4 +52,4 @@ bouncer([7, "ate", "", false, 9]);
 // }
 // return truthyArr;
 
-//rest x2x2
+//rest x2x2 Sick!
