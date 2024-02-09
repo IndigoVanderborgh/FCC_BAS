@@ -25,5 +25,7 @@ getIndexToIns([40, 60], 50);
 //   getIndexToIns([40, 60], 50);
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
-
-// Taking a break
+// Arrow functions summary
+// let myFunction = (a, b) => a * b;
+// myFunction(4, 5);
+// Output: 20
