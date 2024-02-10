@@ -41,7 +41,7 @@ getIndexToIns([40, 60], 50);
 /* This arrow function is a shorter form of:
 
 let sum = function(a, b) {
-  return a + b;
+    return a + b;
 };
 */
 
