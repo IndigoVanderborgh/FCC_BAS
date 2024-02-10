@@ -33,3 +33,5 @@ getIndexToIns([40, 60], 50);
 
 // myFunction(4, 5);
 // Output: 20
+
+// Learning arrow functions today
