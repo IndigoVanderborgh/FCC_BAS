@@ -9,7 +9,7 @@
 
 // ------------------------------------------ exercise ------------------------------------------------------------------------------------------------------------------------------
 function getIndexToIns(arr, num) {
-    arr.sort((a, b) => a - b)
+    arr.sort((a, b) => a - b) // - is for descending from a to b
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] >= num) return i;
     }
@@ -46,7 +46,3 @@ let sum = function(a, b) {
 */
 
 // alert( sum(1, 2) ); // 3
-
-// test
-// superbowl
-// r
