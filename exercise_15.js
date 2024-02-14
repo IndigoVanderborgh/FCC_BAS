@@ -9,6 +9,15 @@
 // Lastly, ["Alien", "line"], should return true because all of the letters in line are present in Alien.
 
 
+function mutation(arr) {
+    const test = arr[1].toLowerCase();
+    const target = arr[0].toLowerCase();
+    for (let i = 0; i < test.length; i++) {
+        if (target.indexOf(test[i]) < 0) return false;
+    }
+    return true;
+}
+
 // function mutation(arr) {
 //     const test = arr[1].toLowerCase();
 //     const target = arr[0].toLowerCase();
