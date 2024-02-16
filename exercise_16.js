@@ -34,3 +34,5 @@ function chunkArrayInGroups(arr, size) {
 //     Otherwise, we push to temp, push temp to the result variable and reset temp to an empty array.
 //     Next, if temp isn’t an empty array, we push it to result.
 //     Finally, we return the value of result.
+
+// review day
