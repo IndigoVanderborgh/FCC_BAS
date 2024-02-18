@@ -35,4 +35,4 @@ function chunkArrayInGroups(arr, size) {
 //     Next, if temp isn’t an empty array, we push it to result.
 //     Finally, we return the value of result.
 
-// review day
+// review day 2x
