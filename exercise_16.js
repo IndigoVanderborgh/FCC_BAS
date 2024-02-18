@@ -3,11 +3,12 @@
 // Write a function that splits an array (first argument) into groups the length of size (second argument) and returns them as a two-dimensional array.
 
 function chunkArrayInGroups(arr, size) {
-  let temp = [];
-  const result = [];
+  let temp = []; // empty array 
+  const result = []; // empty array 
 
-  for (let a = 0; a < arr.length; a++) {
-    if (a % size !== size - 1) temp.push(arr[a]);
+  for (let a = 0; a < arr.length; a++) { // 
+    if (a % size !== size - 1) 
+      temp.push(arr[a]);
     else {
       temp.push(arr[a]);
       result.push(temp);
@@ -17,7 +18,13 @@ function chunkArrayInGroups(arr, size) {
 
   if (temp.length !== 0) result.push(temp);
   return result;
+
 }
+
+// OR
+
+
+
 
 // function chunkArrayInGroups(arr, size) {
 //     return arr;
